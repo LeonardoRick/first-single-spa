@@ -1,0 +1,11 @@
+{
+  "extends": "ts-config-single-spa",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "declarationDir": "dist",
+    "module": "commonjs"
+  },
+  "files": ["src/leonardorick-react-microfrontend.tsx"],
+  "include": ["src/**/*", "src/index.d.ts", "src/declarations.d.ts"],
+  "exclude": ["src/**/*.test*"]
+}

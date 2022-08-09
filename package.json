@@ -1,0 +1,31 @@
+{
+  "name": "first-single-spa",
+  "version": "1.0.0",
+  "description": "This is a project that show a single-spa https://single-spa.js.org up an running.",
+  "main": "root-config/src/index.ejs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-all": "concurrently \"npm run install-react-microfrontend\" \"npm run install react-navbar\" \"npm run install react-parcel\", \"npm run install-root-config\"",
+    "install-react-microfrontend": "npm install --prefix react-microfrontend",
+    "install-react-navbar": "npm install --prefix react-navbar",
+    "install-react-parcel": "npm install --prefix react-parcel",
+    "install-utils": "npm install --prefix utils",
+    "install-root-config": "npm install --prefix root-config",
+    "start": "concurrently \"npm run start-react-microfrontend\" \"npm run start-react-navbar\" \"npm run start-react-parcel\" \"npm run start-utils\" \"npm run start-root-config\"",
+    "start-react-microfrontend": "npm start --prefix react-microfrontend",
+    "start-react-navbar": "npm start --prefix react-navbar",
+    "start-react-parcel": "npm start --prefix react-parcel",
+    "start-root-config": "npm start --prefix root-config",
+    "start-utils": "npm start --prefix utils",
+    "serve": "npm run serve --prefix root-config"
+  },
+  "keywords": [
+    "single-spa",
+    "react"
+  ],
+  "author": "Leonardo Rick",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.3.0"
+  }
+}

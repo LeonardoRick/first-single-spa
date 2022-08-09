@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "@leonardorick/root-config": "https://first-single-spa.nyc3.cdn.digitaloceanspaces.com/root-config/leonardorick-root-config.js",
+    "@leonardorick/react-microfrontend": "https://first-single-spa.nyc3.digitaloceanspaces.com/react-microfrontend/leonardorick-react-microfrontend.js",
+    "@leonardorick/react-parcel": "https://first-single-spa.nyc3.cdn.digitaloceanspaces.com/react-parcel/leonardorick-react-parcel.js",
+    "@leonardorick/react-navbar": "https://first-single-spa.nyc3.cdn.digitaloceanspaces.com/react-navbar/leonardorick-react-navbar.js",
+    "@leonardorick/utils": "https://first-single-spa.nyc3.cdn.digitaloceanspaces.com/utils/leonardorick-utils.js"
+  }
+}
