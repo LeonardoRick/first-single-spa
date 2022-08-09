@@ -18,11 +18,11 @@ This project exemplify the the following features:
 - Setting externals on webpack to share react and react-dom between react-microfrontend and react-navbar
 - All other pages keep working if some MFE do not load properly
 
-Run in development mode:
-On the root folder run:
-1 - npm i
-2 - npm run install-all
-3 - npm start
+To run in development mode, go to the project root folder and run:
+
+    1 - npm i
+    2 - npm run install-all
+    3 - npm start
 
 This will install all dependencies on each project and run all of them concurrently on the same terminal, including the root config
 
