@@ -17,4 +17,5 @@ jobs:
 
       - name: Run a multi-line script
         run: |
+          npm ci
           cd react-microfrontend && npm run build && cd ..
