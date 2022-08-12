@@ -11,7 +11,7 @@ import microfrontendLayout from "./microfrontend-layout.html";
 // prefix to be considered on the path resolution, put this route inside the other on the HTML.
 // - exact: if true, route loses its default 'prefix' behavior and search for an exact match. Do not
 // nest routes on a exact route
-// - default: This route will match allr remaining URL's not defined by sibling routes.
+// - default: This route will match all remaining URL's not defined by sibling routes.
 const routes = constructRoutes(microfrontendLayout);
 const applications = constructApplications({
   routes,
