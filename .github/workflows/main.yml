@@ -17,4 +17,5 @@ jobs:
 
       - name: Build all microfrontend
         run: |
+          npm ci
           npm run build-ci
