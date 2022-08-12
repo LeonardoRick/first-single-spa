@@ -2,7 +2,7 @@ name: CI
 
 on:
   pull_request:
-    banches: ["main"]
+    branches: ["main"]
 
   workflow_dispatch:
 
@@ -15,9 +15,7 @@ jobs:
       - name: Run a one-line script
         run: echo Hello world
 
-      - name: Run a multi-line script
+      - name: Build all microfrontend
         run: |
-          cd react-microfrontend
           npm ci
           npm run build
-          cd ..
